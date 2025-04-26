@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 1366px;
+    height: 700px;
+    background-image: url(Images/hawai-y-sus-diferentes-tipos-de-clima-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+/* Login Page */
+.page{
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.login-text{
+    background-color: white;
+    color: rgb(12, 117, 143);
+    width: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    justify-self: center;
+    border: 1px solid white;
+    border-radius: 0.2em;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.type{
+    opacity: initial;
+}
+
+.type :nth-child(1), .type :nth-child(2){
+    width: 25em;
+    height: 4em;
+    font-size: 1.2em;
+    border: 2px solid rgb(18, 205, 219);
+    border-radius: 0.8em;
+    padding-left: 1em;
+}
+
+.type :nth-child(1):hover, .type :nth-child(2):hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 8px black;
+}
+
+.type :nth-child(1){
+    margin-top: 2em;
+}
+
+.type :nth-child(2){
+    margin-top: 0.5em;
+}
+
+.type::placeholder{
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.remember{
+    margin-top: 0.3em;
+    text-align: left;
+    position: relative;
+    left: 5em;
+    
+}
+
+.remember label{
+    font-size: 1.5em;
+}
+
+.login-button, .create-button{
+    margin-top: 1em;
+    width: 20em;
+    height: 2.5em;
+    background-color: rgb(12, 117, 143);
+    /* background-color: rgb(16, 78, 248); */
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.login-button:hover, .create-button:hover{
+    background: rgb(1, 38, 48)
+}
+
+.forgot{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.acct{
+    font-size: 1.3em;
+    margin-top: 0.4em;
+}
+
+.register{
+    font-size: 1.3em;
+}
+
+.forgot:hover a, .register:hover a{
+    background-color: rgb(1, 38, 48);
+    font-size: 1.4em;
+    color: white;
+    border-radius: 0.3em;
+}
+
+.forgot a, .register a{
+    text-decoration: none;
+    color: rgb(12, 117, 143);
+}
+
+/* Sign Up Page */
+.create-text{
+    background-color: white;
+    color: rgb(12, 117, 143);
+    width: 10em;
+    text-transform: uppercase;
+    text-align: center;
+    justify-self: center;
+    border: 1px solid white;
+    border-radius: 0.2em;
+    font-size: 2em;
+    font-weight: bold;
+}
+.create-type input{
+    color: rgb(12, 117, 143);
+    width: 25em;
+    height: 4em;
+    font-size: 1.2em;
+    border: 2px solid rgb(18, 205, 219);
+    border-radius: 0.8em;
+    padding-left: 1em;
+}
+
+.create-type input:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 8px black;
+}
+
+.create-type :nth-child(1){
+    margin-top: 2em;
+}
+
+.create-type :nth-child(2), .create-type :nth-child(3){
+    margin-top: 0.5em;
+}
+
+.acct-already{
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.log-in{
+    font-size: 1.3em;
+}
+
+.log-in a{
+    text-decoration: none;
+    color: rgb(12, 117, 143);
+}
+
+.log-in:hover a{
+    background-color: rgb(1, 38, 48);
+    font-size: 1.4em;
+    color: white;
+    border-radius: 0.3em;
+}

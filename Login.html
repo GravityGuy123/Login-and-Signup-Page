@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="page">
+            <p class="login-text">Login</p>
+            <form action="index.html" method="get">
+                <section class="type">
+                    <input type="text" name="emailorphone" id="emailorphone-id" placeholder="Email or Phone number" min="15" maxlength="30" required>
+                    <input type="password" name="password" placeholder="Password" min="15" maxlength="30" required>
+                </section>
+                <div class="remember">
+                    <label for="remember-me-id">
+                        <input type="checkbox" name="remember-me" id="remember-me-id"> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="login-button">Log in</button>
+                <p class="forgot">
+                    <a href="forgot-password.html">Forgot password?</a>
+                </p>
+            </form>
+            <p class="acct">Don't have an account?
+                <span class="register">
+                    <a href="Signup.html">Register</a>
+                </span>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
