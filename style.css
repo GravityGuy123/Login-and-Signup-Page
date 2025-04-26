@@ -31,15 +31,16 @@ body{
 
 .login-text{
     background-color: white;
+    background-color: rgb(255, 255, 255, 0.5);
     color: rgb(12, 117, 143);
     width: 4em;
     text-transform: uppercase;
     text-align: center;
     justify-self: center;
-    border: 1px solid white;
     border-radius: 0.2em;
     font-size: 2.5em;
     font-weight: bold;
+    box-shadow: 3px 3px 3px black;
 }
 
 .type{
@@ -133,15 +134,16 @@ body{
 /* Sign Up Page */
 .create-text{
     background-color: white;
+    background-color: rgb(255, 255, 255, 0.5);
     color: rgb(12, 117, 143);
     width: 10em;
     text-transform: uppercase;
     text-align: center;
     justify-self: center;
-    border: 1px solid white;
     border-radius: 0.2em;
     font-size: 2em;
     font-weight: bold;
+    box-shadow: 3px 3px 3px black;
 }
 .create-type input{
     color: rgb(12, 117, 143);
