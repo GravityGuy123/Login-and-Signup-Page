@@ -17,7 +17,7 @@ body{
 }
 
 .page{
-    margin-top: 4em;
+    margin-top: 3em;
     align-items: center;
     border-radius: 2em;
     /* text-align: center; */
@@ -46,6 +46,22 @@ body{
     box-shadow: 3px 3px 3px black;
 }
 
+.welcome{
+    margin-top: 1em;
+    text-align: left;
+    justify-self: left;
+    align-items: left;
+    align-content: left;
+    align-self: left;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 3px rgb(12, 117, 143);
+    
+}
+
+.gravity{
+    font-weight: bold;
+}
 
 .type input[type="text"], .type input[type="password"]{
     width: 25em;
@@ -64,7 +80,7 @@ body{
 }
 
 .type :nth-child(1){
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .type :nth-child(2){
@@ -174,9 +190,29 @@ body{
     margin-top: 0.5em;
 }
 
+.click-message{
+    margin-top: 0.2em;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.terms, .privacy{
+    font-weight: bold;
+}
+
+.terms a, .privacy a{
+    color: rgb(12, 117, 143);
+    text-decoration: none;
+}
+
+.terms a:hover, .privacy a:hover{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
 .acct-already{
     font-size: 1.3em;
-    margin-top: 1em;
+    margin-top: 0.8em;
     margin-bottom: 1em;
     display: block;
 }
