@@ -19,6 +19,7 @@ body{
 .page{
     margin-top: 4em;
     align-items: center;
+    border-radius: 2em;
     /* text-align: center; */
     width: 80%;
     height: 80%;
@@ -26,9 +27,8 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-flow: column wrap;
-    flex: 0 1 700px;
+    flex: 0 1 40em;
 }
-
 
 .login-text{
     background-color: white;
@@ -46,11 +46,8 @@ body{
     box-shadow: 3px 3px 3px black;
 }
 
-.type{
-    opacity: initial;
-}
 
-.type :nth-child(1), .type :nth-child(2){
+.type input[type="text"], .type input[type="password"]{
     width: 25em;
     height: 4em;
     font-size: 1.2em;
