@@ -9,10 +9,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 600px){
-    body{
-        background-color: rgba(12, 117, 143, 0.5);
+
+@media only screen and (orientation: portrait) {
+    body {
+      background-image: url(Images/hawai-y-sus-diferentes-tipos-de-clima.jpg);
+      background-repeat: no-repeat;
+      background-size: 1000px 1000px;
+      overflow: auto;
     }
+
+    .page{
+        margin-bottom: 3em;
+    }
+
 }
 
 .container{
@@ -36,13 +45,6 @@ body{
     flex: 0 1 40em;
 }
 
-/* @media screen and (max-width: 600px){
-    .page{
-        width: 80%;
-        height: 80%;
-        background-color: rgba(12, 117, 143, 0.4);
-    }
-} */
 
 .login-text{
     background-color: white;
@@ -254,8 +256,7 @@ body{
 }
 
 .head{
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 3px 3px 3px black;
+    background-color: rgb(12, 117, 143);
     width: 100%;
     height: 4em;
     align-content: center;
@@ -268,13 +269,13 @@ body{
     background-color: black;
 }
 
-.head:hover .home-acct a{
+/* .head:hover .home-acct a{
     color: white;
 }
 
 .head:hover .acct-rule{
     border: 1px solid white;
-}
+} */
 
 .nav-icons{
     font-weight: bold;
@@ -310,7 +311,7 @@ body{
 
 .acct-rule{
     height: 1.3em;
-    border: 1px solid rgb(12, 117, 143);
+    border: 1px solid white;
     margin-left: 0.8em;
     display: inline-flex;
     /* position: relative;
@@ -322,16 +323,26 @@ body{
 }
 
 .home-acct a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .home-acct span:hover a{
-    background-color: rgb(155, 225, 243);
-    color: white;
-    text-shadow: 3px 3px 3px black;
+    background-color: white;
+    color: black;
+    padding: 0.2em;
+    border-radius: 0.3em;
+    /* text-shadow: 3px 3px 3px black; */
 }
 
 .home-welcome{
     display: block;
+}
+
+.foot{
+    width: 100%;
+    background-color: black;
+    height: 3em;
+    position: absolute;
+    bottom: 0px;
 }
